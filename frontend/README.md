@@ -1,0 +1,1 @@
+This is the frontend of the code that will be used to display the contents of the website.
