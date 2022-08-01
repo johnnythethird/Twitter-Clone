@@ -42,7 +42,7 @@ code {
 }
 
 .secondary_button {
-  color: var(-- white);
+  color: var(--white);
   background-color: var(--twitter-primary);
 }
 
