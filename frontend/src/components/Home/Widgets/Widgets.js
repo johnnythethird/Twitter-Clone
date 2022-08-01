@@ -1,8 +1,16 @@
-
+import "./Widgets.css"
+import { TwitterTimelineEmbed } from "react-twitter-embed"
 
 const Widgets = () => {
   return (
-    <div className="widgets">Widgets</div>
+    <div className="widgets">
+      <TwitterTimelineEmbed
+        className="widgets_container"
+        sourceType="profile"
+        screenName="Normmacdonald"
+        options={{ height: 600 }}
+      />
+    </div>
   )
 }
 
